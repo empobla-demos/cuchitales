@@ -9,8 +9,8 @@
 "use strict";
 
 // Import third-party libraries
-import { Mesh, Vector3, Quaternion} from '../../libs/three.js/three.module.js';
-import { Body } from '../../libs/cannon-es.js/cannon-es.js';
+import { Mesh, Vector3, Quaternion} from '../libs/three.js/three.module.js';
+import { Body } from '../libs/cannon-es.js/cannon-es.js';
 
 // Enums for capture keys
 const [W, A, D, ENTER, SPACE] = ['w', 'a', 'd', 'enter', ' '];

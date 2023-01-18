@@ -17,7 +17,7 @@
 // Import ThreeJs
 import { 
     Raycaster, Vector3, PerspectiveCamera, Group, Quaternion 
-} from '../../libs/three.js/three.module.js';
+} from '../libs/three.js/three.module.js';
 
 // Import PlayerControls
 import PlayerControls from './PlayerControls.js';

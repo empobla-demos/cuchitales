@@ -12,8 +12,8 @@
 "use strict";
 
 // Import third-party libraries
-import { Group, Mesh, Box3, Object3D } from '../../libs/three.js/three.module.js';
-import { World, Body, ContactMaterial } from '../../libs/cannon-es.js/cannon-es.js';
+import { Group, Mesh, Box3, Object3D } from '../libs/three.js/three.module.js';
+import { World, Body, ContactMaterial } from '../libs/cannon-es.js/cannon-es.js';
 
 // Import modules
 import TerrainGenerator from './TerrainGenerator.js';

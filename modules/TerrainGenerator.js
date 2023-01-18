@@ -16,8 +16,8 @@ import {
     PlaneBufferGeometry, MeshStandardMaterial, MeshPhongMaterial, 
     MeshBasicMaterial, SphereGeometry, Vector3, Texture, BufferGeometry, 
     Group, Line, LineBasicMaterial
-} from '../../libs/three.js/three.module.js';
-import { Trimesh, Body, Material } from '../../libs/cannon-es.js/cannon-es.js';
+} from '../libs/three.js/three.module.js';
+import { Trimesh, Body, Material } from '../libs/cannon-es.js/cannon-es.js';
 
 /**
  * Terrain Generator class, which accepts settings and can 

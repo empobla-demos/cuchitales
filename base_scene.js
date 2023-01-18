@@ -16,12 +16,12 @@ import {
     DirectionalLight, HemisphereLight, Object3D, Group, Vector3, 
     Clock,
     Mesh
-} from '../libs/three.js/three.module.js';
-import { OrbitControls } from '../libs/three.js/controls/OrbitControls.js';
+} from './libs/three.js/three.module.js';
+import { OrbitControls } from './libs/three.js/controls/OrbitControls.js';
 import { 
     Body, Sphere, Material, World
-} from '../libs/cannon-es.js/cannon-es.js';
-import CannonDebugger from '../libs/cannon-es-debugger/cannon-es-debugger.js';
+} from './libs/cannon-es.js/cannon-es.js';
+import CannonDebugger from './libs/cannon-es-debugger/cannon-es-debugger.js';
 
 // Import modules
 import * as Loaders from './modules/Loaders.js';

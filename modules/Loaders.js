@@ -9,9 +9,9 @@
 
 "use strict";
 
-import { Group, TextureLoader } from '../../libs/three.js/three.module.js'
-import { OBJLoader } from '../../libs/three.js/loaders/OBJLoader.js';
-import { FBXLoader } from '../../libs/three.js/loaders/FBXLoader.js';
+import { Group, TextureLoader } from '../libs/three.js/three.module.js'
+import { OBJLoader } from '../libs/three.js/loaders/OBJLoader.js';
+import { FBXLoader } from '../libs/three.js/loaders/FBXLoader.js';
 
 /**
  * Loads .obj model asynchronously and sets up its texture, normal, and 
